@@ -1,13 +1,7 @@
 
+user_input = input("What is your name")
+age_of_user = int(input("What is your age?"))
+workplace_of_user = input("What is your workplace:")
 
-user_input = "Which operation do you want to carry out today??"
-def calculator(a, b):
-    global user_input
-    if user_input == '+':
-        return f"The result of the operation is {a + b}"
-    elif user_input == '-':
-        return f"The result of the operation is {a - b}"
-    if user_input == '*':
-        return f"The result of the operation is {a * b}"
-    if user_input == '/':
-        return f"The result of the operation is {a / b}"
+
+print(f"Your name is {user_input} and your age is {age_of_user}; You work in {workplace_of_user}")
